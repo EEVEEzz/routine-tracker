@@ -1,0 +1,65 @@
+<br>The EEVEEzz Routine Tracker<br><br>
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+    <title>Track Your Habits Daily</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Catamaran'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+
+
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+
+
+
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+
+</head>
+
+<body translate="no">
+    <div id="about">
+        <div class="mySocial">
+
+        </div>
+    </div>
+    <div id="month">
+        <div id="previousMonth"><i class="fa fa-arrow-left"></i></div>
+        <h1 id="monthLabel"></h1>
+        <div id="nextMonth"><i class="fa fa-arrow-right"></i></div>
+    </div>
+    <div id="daysLabels"></div>
+    <div id="calendar"></div>
+    <div id="info">
+        <ul id="taskLabels"></ul>
+        <div id="taskExample" class="dayContainer"></div>
+    </div>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
