@@ -408,4 +408,3 @@ document.getElementById("previousMonth").onclick = () => {
 };
 
 init();
-//# sourceURL=pen.js
